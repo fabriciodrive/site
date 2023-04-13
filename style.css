@@ -35,7 +35,7 @@ header, main, footer{
 }
 
 footer{
-    background-color: var(--corprincipal);
+    background-color: var(--corfundo);
 }
 
 footer>p{
@@ -82,7 +82,7 @@ main>p{
 }
 
 main{
-    background-color: var(--corprincipal);
+    background-color: var(--corfundo);
 
 
 }
