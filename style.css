@@ -62,7 +62,7 @@ span{
 }
 
 #capa{
-    width: 100%; /*Largura*/
+    width: 400px; /*Largura*/
     height: 300px; /*Altura*/
     background-image: url('images/bg-tecnologia.jpg'); /*Define a imagem de fundo*/
     background-repeat: no-repeat; /*Argumento para não repetir a imagem*/
