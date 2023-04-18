@@ -35,7 +35,7 @@ header, main, footer{
 }
 
 footer{
-    background-color: var(--corfundo);
+    background-color: var(--cordestaque);
 }
 
 footer>p{
@@ -44,7 +44,7 @@ footer>p{
 
 
 
-h1, h2, h3{
+h1, h2, h3, h4, h5 {
     color: var(--cordestaque);
 }
 
@@ -64,7 +64,7 @@ span{
 #capa{
     width: 100%; /*Largura*/
     height: 300px; /*Altura*/
-    background-image: url('images/bg-tecnologia.jpg'); /*Define a imagem de fundo*/
+    background-image: url(images/curriculo.webp); /*Define a imagem de fundo*/
     background-repeat: no-repeat; /*Argumento para não repetir a imagem*/
     background-position: 0px 0px; /*POSICIONA a imagem no fundo atravez dos eixos X e Y*/
     background-size: cover; /*Ajusta o tamanho da imagem*/
@@ -88,7 +88,7 @@ main{
 }
 
 #capa>h1{
-    color: white;
+    color: var(--cortexto);
 }
 
 #capa>p{
