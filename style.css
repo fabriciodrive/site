@@ -36,6 +36,10 @@ header, main, footer{
 
 footer{
     background-color: var(--cordestaque);
+    
+    height: 80px;
+    display: flex;
+
 }
 
 footer>p{
@@ -138,4 +142,24 @@ nav{
     background-color: var(--cordestaque); /*Cor de fundo*/
     border-radius: 5px; /*Arredonda os cantos*/
     box-shadow: 3px 3px 3px black; /*INICIAR A PARTI DAQUI*/
+}
+
+#redes{ 
+
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    top: 50px;
+    
+   
+    
+
+
+
+
+
 }
